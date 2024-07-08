@@ -3,14 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleshet" href="/style.css">
     <script src="script.js" defer></script>
     <title>Boas Vindas</title>
 </head>
-<body>
-    <div id="welcomeMessage"></div>
+<section> <h1 id= "nome" >nome </h1></section>
 
-    <img id="light" src="lampada desligada.gif" alt= "Lâmpada Desligada" width="100">
-    <button onclick="toggleLight()">Ligar/Desligar</button>
+<section>
+
+    <img src ="light" src="lampada-ligada.gif" alt= " " id="lamp">
+    <button id="bnt-onoff"><span class="material-symbols-outlined" id=" icon-onoff"> toggle_on </span></button>
+</section>
+<div class="form-item">
+<label for = "senha">Senha</label>
+<input type="password" name = "senha" id="senha">
+<button id= "btn-olho"><span
+class="material-symbols-outlined"
+id="icon-olho">visibility_off </span></button>
+</div>
+
+<div class="form-item">
+    <label for="senha_repete">Repita a senha</label>
+    <input type="password" name = "senha_repete"
+    id="senha_repete">
+    <span id=" erro"></span>
+</div>
+
+
+    
+
+<body>
+    
 </body>
 </html>
 
